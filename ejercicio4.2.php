@@ -1,6 +1,6 @@
 <?php
 
-$cliente =  7;
+$cliente =  2;
 $dias = ["lunes", "martes", "miercoles","jueves","viernes", "sabado", "domingo"];
 $numerodias = [1,2,3,4,5,6,7];
 
