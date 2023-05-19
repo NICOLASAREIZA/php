@@ -1,5 +1,6 @@
 <?php
-//ejercicio 1 ()
+/*ejercicio 1 (Ejercicio de comparacióm númerica: Escribe un programa que solicite al usuario que 
+imgrese un número. Luego, el programa debe imprimir si el número ingresado es mayor, menor o igual a 10 utiliandola sentencia if.)*/
 
 $numero1=10;
 $numero2=10;
