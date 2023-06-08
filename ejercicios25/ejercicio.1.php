@@ -3,21 +3,26 @@
 ingresar una lista de números y luego calcule la suma y el promedio de esos
 números)*/
 
-$numer1 = 6;
-$numer2 = 8;
+$numeroDeDatos = intval(readline (prompt:"Ingrese la cantidad de datos a promediar \n "));
 
-$numer3 = 2;
+$datos = [];
 
-$resultado = match ($numer1 + $numer2 = $resultados / $numer3){
-    
-
-
-
+for($i = 0; $i <= $numeroDeDatos; $i++){
+    $datos[$i] = floatval (readline(prompt:"Ingrese el datos \n"));
 }
 
+$suma =0;
+for($i = 0; $i <= $numeroDeDatos; $i++){
+    $suma += $datos[$i];
+}
 
+echo $suma. "\n";
 
+$resultado = $suma / $numeroDeDatos;
+echo "el promedio de los datos es de".$resultado."\n";
 
+//var_drum (para traer datos)
+//var_drum ($datos)
 
 
 ?>
